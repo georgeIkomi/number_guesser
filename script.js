@@ -13,3 +13,12 @@ const compareGuesses = (humanGuess, computerGuess, TargetNum) => {
     const computerDifference = Math.abs(TargetNum - computerGuess); // distance between target number and computer guess
     return humanDifference <= computerDifference;
 };
+
+// update scores
+const updateScore = (winner) => {
+    if (winner === "human") {
+        humanScore++;
+    } else if (winner === "computer") {
+        computerScore++;
+    }
+};

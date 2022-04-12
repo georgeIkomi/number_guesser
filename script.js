@@ -6,3 +6,10 @@ let currentRoundNumber = 1;
 const generateTarget = () => {
     return Math.floor(Math.random() * 10);
 };
+
+// determine guess closest to target number
+const compareGuesses = (humanGuess, computerGuess, TargetNum) => {
+    const humanDifference = Math.abs(TargetNum - humanGuess); // distance between target number and human guess
+    const computerDifference = Math.abs(TargetNum - computerGuess); // distance between target number and computer guess
+    return humanDifference <= computerDifference;
+};

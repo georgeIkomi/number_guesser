@@ -13,3 +13,12 @@ Required are the following:
 + Internet connection
 + A browser
 + Go to [Number Guesser](https://georgeIkomi.github.io/number_guesser "https://georgeIkomi.github.io/number_guesser")
++ Make a guess by inputting a number using the "+" button.
++ Click on "Make a Guess" button to get result of winner.
+
+## Technologies
+
++ HTML 
++ CSS
++ JavaScript
++ Nodejs
